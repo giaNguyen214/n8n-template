@@ -63,6 +63,13 @@ services:
       - key: N8N_PROXY_HOPS
         value: "1"
 
+      - key: PORT
+        value: "5678"
+      - key: N8N_LOG_LEVEL
+        value: debug
+
+
+
 
 databases:
   - name: n8n-db
