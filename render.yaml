@@ -60,8 +60,8 @@ services:
         value: https
       - key: N8N_PROXY_HOPS
         value: "1"
-      - key: N8N_LOG_LEVEL
-        value: debug
+      - key: N8N_PORT
+        value: ${PORT}
 
 
 
